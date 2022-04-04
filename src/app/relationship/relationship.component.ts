@@ -61,7 +61,7 @@ export class RelationshipComponent implements OnInit {
 
   selectRelation(value: string){
   
-    if (value == 'Mẹ' || 'Cô' || 'Dì' || 'Bà nội' || 'Bà ngoại' || 'Chị ruột' || 'Chị/em họ')
+    if (value == 'Mẹ' | 'Cô' || 'Dì' || 'Bà nội' || 'Bà ngoại' || 'Chị ruột' || 'Chị/em họ')
     {
       this.list_of_relationship[this.index_of_relationship].sex = 'Nữ';
     }
