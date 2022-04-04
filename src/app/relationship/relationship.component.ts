@@ -16,7 +16,7 @@ export class RelationshipComponent implements OnInit {
   'Ông ngoại','Bà ngoại', 'Ông nội', 'Bà nội',
     'Con ruột' 
   ]
-  list_of_sex: string[] = ['Nam', 'Nữ']
+  list_of_sex: string[] = ['Nam', 'Nữ', 'LGBT']
   orderFamily_option: any[] = ['Con cả', 'Con hai', 'Con ba', 'Khác']
   causeOfdeath: any[] = ['Tai nạn','Ung thư','Đái tháo đường','Bệnh tim mạch','Bệnh hô hấp','Nhiễm trùng','Đột quỵ','Đột tử trẻ sơ sinh (Sudant infant death syndrome – SIDS)','không có','khác']
   index_of_relationship = 0
