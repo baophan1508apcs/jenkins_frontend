@@ -50,7 +50,7 @@ export class RelationshipComponent implements OnInit {
           this.relationships.push('Anh/em họ');    
           this.relationships.push('Chị/em họ');
       }
-      this.list_of_parent_nephew.pus(this.list_of_relationship[this.index_of_relationship-1].firstName);
+      this.list_of_parent_nephew.push(this.list_of_relationship[this.index_of_relationship-1].firstName);
     } 
   }
 
